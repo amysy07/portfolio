@@ -54,12 +54,19 @@ h6 {
 h1 {
   font-size: 3em;
   line-height: 1;
+font-family: loretta-display, serif;
+font-weight: 200;
+font-style: normal;
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 2em;
   line-height: 1.1;
+  font-family: loretta-display-variable, sans-serif;
+ font-variation-settings: "wght" 400;
+ font-style: italic;
 }
+
 h3 {
   font-size: 1.5em;
   line-height: 1.2;
@@ -82,6 +89,10 @@ h6 {
 p {
   margin: 0.5em 0;
   max-width: 38em;
+  font-size: 1.1em;
+  font-family: indivisible, sans-serif;
+font-weight: 300;
+font-style: normal;
 }
 
 /* LINKS */
@@ -139,15 +150,6 @@ article p + h6 {
   line-height: 1.3em;
 } */
 
-article p:first-of-type:first-letter {
-  font-size: 3em;
-  line-height: 1em;
-  background: #000;
-  color: #fff;
-  padding: 0.2em 0.4em;
-  margin-right: 0.3em;
-  float: left;
-}
 
 /* HELPER CLASSES */
 .text-centered {
@@ -169,23 +171,26 @@ img {
 .button,
 button,
 form input[type="submit"] {
-  font-size: inherit;
+  font-size: .6em;
   line-height: 1;
-  background-color: rgba(0, 0, 255, 1);
-  border: 1px solid rgba(0, 0, 255, 1);
+  background-color: rgba(31, 44, 32, 0.8);
+  /* border: 1px solid rgba(0, 0, 255, 1); */
   color: rgba(255, 255, 255, 1);
-  padding: 1em;
+  padding: 1.25em;
   display: inline-block;
-  margin: 0.5em 0.5em 0.5em 0;
+  margin: 2em 0.5em 0.5em 0;
   text-align: center;
   border-radius: 0.5em;
+font-family: lulo-one, sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 .button:hover,
 button:hover,
 form input[type="submit"]:hover {
-  background-color: rgba(0, 0, 153, 1);
-  border-color: rgba(0, 0, 153, 1);
+  background-color: rgba(31, 44, 32);
+  /* border-color: rgba(0, 0, 153, 1); */
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
 }
@@ -325,8 +330,14 @@ body.demo::before {
 /* SITE STRUCTURE */
 
 /* SITE HEADER */
-.site-header {
-  padding: 1em 0;
+
+
+.site-header::after {
+  content: "";
+  display: block;
+width: auto;
+  margin: 0.5em auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 /* ON LARGER SCREENS PLACE LOGO LEFT AND NAV RIGHT */
@@ -349,11 +360,20 @@ body.demo::before {
   color: rgba(0, 0, 0, 1);
   text-decoration: none;
 }
+
+.site-footer::before {
+  content: "";
+  display: block;
+width: auto;
+  margin: 0.5em auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
 /* LOGO AREA */
 .site-id h1 {
   font-size: 1.5em;
   margin: 0;
-  padding-top: 0.55em;
+  /* padding-top: 0.55em; */
   text-align: center;
 }
 
@@ -364,6 +384,10 @@ body.demo::before {
   list-style: none;
   display: flex;
   justify-content: center;
+  font-size: .5em;
+  font-family: lulo-one, sans-serif;
+font-weight: 500;
+font-style: normal;
 }
 
 .site-nav a {
@@ -374,6 +398,8 @@ body.demo::before {
 .site-nav .menu-button {
   display: none;
 }
+
+
 
 /* SITE MAIN */
 
@@ -386,13 +412,12 @@ section {
 
 .hero {
   padding: 6em 4%;
-  background-color: rgba(0, 0, 0, 0.1);
-  text-align: center;
+  text-align: left;
 }
 
 .hero h1,
 .hero p {
-  max-width: 600px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -509,22 +534,132 @@ form input[type="submit"] {
   border-bottom: 3px solid rgba(0, 0, 0, 0.2);
 }
 
-.site-header.sticky {
+span {
+    font-family: loretta-display-variable, sans-serif;
+        font-variation-settings: "wght" 300;
+        font-style: italic;
+}
+
+.spantwo {
+    font-family: loretta-display-variable, sans-serif;
+    font-variation-settings: "wght" 600;
+    font-style: italic;
+}
+
+.spanthree {
+  font-family: indivisible, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.p-about {
+    font-size: 1.3em;
+}
+
+.about-pic {
+    width: 150px;
+}
+
+/* GRID */
+
+img {
+  width: 100%;
+}
+
+
+/* SECTION */
+.work {
+  text-align: center;
+  padding: 2rem 3%;
+}
+
+.work img:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.work img {
+  cursor: pointer;
+  transition: opacity 400ms;
+}
+
+.work img:hover {
+  opacity: 0.7;
+}
+
+
+
+/* ANIMATIONS */
+header h1.title {
+  animation: rise 300ms backwards ease-out;
+}
+
+header h2.second-title {
+  animation: rise 400ms backwards ease-out;
+}
+
+.work img {
+  animation: rise 400ms ease-out backwards;
+  animation-play-state: paused;
+  animation-delay: 300ms;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+}
+
+/* MEDIA QUERIES */
+/* Tablets */
+@media screen and (min-width: 480px) {
+  .work {
+    padding: 2rem 10% 10%;
+  }
+}
+
+/* Small Screens, laptops */
+@media screen and (min-width: 768px) {
+  
+  
+  /*  SECTION */
+  .work {
+    columns: 2;
+    column-gap: 1rem;
+    padding: 2rem 10% 10%;
+  }
+}
+
+/* Desktop, large screens */
+@media screen and (min-width: 1024px) {
+
+  
+  /*  SECTION */
+  .work {
+    columns: 2;
+    column-gap: 1.5rem;
+    padding: 2rem 10% 10%;
+  }
+}
+
+
+
+/* .site-header.sticky {
   position: fixed;
   width: 100%;
   background-color: white;
 }
 .site-header.sticky + main {
   padding-top: 3em;
+} */
+
+body {
+  background-color: rgba(161, 180, 147, 0.292);
 }
 
-#about {
-  background: rgba(0, 0, 0, 0.05);
-}
 
-#contact {
-  background: rgba(0, 0, 0, 0.01);
-}
+
+
 
 /* Vertical Media Query add height/paddint to ottom of contact section only for lg screens */
 
