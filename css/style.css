@@ -268,7 +268,7 @@ body {
 
 /* CONTAINER */
 .container {
-  max-width: 1200px;
+  max-width: 80%;
   margin: 0 auto;
   padding: 0 4%;
 }
@@ -290,7 +290,7 @@ body {
     font-size: 112.5%; /* 18 px */
   }
   .container {
-    max-width: 1200px;
+    max-width: 80%;
   }
 }
 
@@ -744,6 +744,10 @@ body {
   background-color: rgba(222, 220, 194, 0.292);
 }
 
+.page-projectdetail {
+    background-color: white;
+}
+
 
 
 .wrapper{
@@ -825,6 +829,7 @@ body {
     top: 0;
     height: 90vh;
 }
+
 
 /* SUB PAGE IMAGE FAN EFFECT */
 
