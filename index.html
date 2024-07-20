@@ -25,7 +25,7 @@
         <div class="container">
             <div class="site-id">
                 <h1>
-                    <a href="#top" class="scroll">Amy Rhee</a>
+                    <a href="#top" class="scroll"><img src="../portfolio/img/logo.png"></a>
                 </h1>
             </div>
             <nav class="site-nav">
@@ -41,19 +41,31 @@
 
     <main class="site-main">
         <section class="hero">
-            <div class="container">
-                <h1>Amy Rhee is a design student who creatively uses her passion to make a
-                    positive impact with every&nbsp;project.</h1>
-                <a href="#work" class="button scroll">Learn More</a>
+            <div class="wrapper">
+                <h1>Amy Rhee is a(n),
+                    <div class="words">
+                        <span class="words-main">Design Student 📚</span>
+                        <span class="words-main">Illustrator 👩🏽‍🎨</span>
+                        <span class="words-main">UI/UX Designer 🌸</span>
+                        <span class="words-main">Cat Lover 😻</span>
+                        <!-- <span class="words-main"></span> -->
+                    </div>
+                </h1>
             </div>
+            <a href="#work" class="button scroll">Learn More</a>
         </section>
 
         <section class="work" id="work">
-            <img src="../portfolio/img/PatagoniaEmbroideredLogoMockUp.jpg" />
-
+            <a href="../portfolio/patagonia.html">
+                <img src="../portfolio/img/PatagoniaEmbroideredLogoMockUp.jpg" />
+            </a>
             <!-- <img src="../portfolio/img/CoffeeCat.jpg" /> -->
-            <img src="../portfolio/img/hawaiianmonkseal.png" />
-            <img src="../portfolio/img/CanvasBagChiangMai.jpg" />
+            <a href="../portfolio/monkseal.html">
+                <img src="../portfolio/img/hawaiianmonkseal.png" />
+            </a>
+            <a href="../portfolio/chiangmai.html">
+                <img src="../portfolio/img/CanvasBagChiangMai.jpg" />
+            </a>
             <img src="../portfolio/img/OlympicPictograms.png" />
             <img src="../portfolio/img/BookTrilogy_TheMail_AmyRhee.jpg" />
             <img src="../portfolio/img/PogCan.jpg" />
@@ -70,24 +82,22 @@
             <article>
                 <h2>Aloha and thank you for viewing my&nbsp;portoflio! </h2>
                 <p class="p-about">
-                    I'm Amy, a graphic design student with a background in biology and conservation.<img
-                        class="about-pic" src="../portfolio/img/trees.jpg"> My journey
-                    began with a
-                    <span>deep love for nature</span>
+                    I'm Amy, a graphic design student with a background in biology and conservation. My journey
+                    began with a <span>deep love for nature</span>
                     and a
                     <span>career dedicated to preserving it</span>.
                 </p>
                 <p class="p-about">
                     My work reflects the harmony between the natural
                     world and artistic expression, resulting in designs
-                    that are both <img class="about-pic" src="../portfolio/img/poppies.png">
+                    that are both
                     <span class="spantwo">visually stunning</span> and
                     <span class="spantwo">meaningful</span>.
                 </p>
                 <p class="p-about">
                     From eco-friendly branding to educational
                     illustrations, I aim to create visuals that inspire and inform.
-                    <span class="spanthree"><img class="about-pic" src="../portfolio/img/dolphins.png">Let's collaborate
+                    <span class="spanthree">Let's collaborate
                         and bring your
                         vision to life with a touch of nature's elegance!</span>
                 </p>
@@ -97,19 +107,26 @@
 
     <section id="contact">
         <div class="container">
-            <h3 class="section-title">Contact Us</h3>
-            <form>
-                <label for="contact_name">Name:</label>
-                <input type="text" id="contact_name" name="contact_name" />
+            <div class="row">
+                <div class="column one-half">
+                    <h1>Let's Connect</h1>
+                    <p>Have a project in mind? Let's bring it to life together!</p>
+                </div>
+                <div class="column one-half">
+                    <form>
+                        <label for="contact_name">Name:</label>
+                        <input type="text" id="contact_name" name="contact_name" />
 
-                <label for="email">Email Address:</label>
-                <input type="text" id="contact_email" name="contact_email" />
+                        <label for="email">Email Address:</label>
+                        <input type="text" id="contact_email" name="contact_email" />
 
-                <label for="contact_message">Message:</label>
-                <textarea id="contact_message" name="contact_message"></textarea>
+                        <label for="contact_message">Message:</label>
+                        <textarea id="contact_message" name="contact_message"></textarea>
 
-                <input type="submit" value="Submit" />
-            </form>
+                        <input type="submit" value="Submit" />
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -118,6 +135,7 @@
             <nav class="site-nav">
                 <ul>
                     <li><a class="scroll" href="#top">Home</a></li>
+                    <li><a class="scroll" href="#work">Work</a></li>
                     <li><a class="scroll" href="#about">About</a></li>
                     <li><a class="scroll" href="#contact">Contact</a></li>
                 </ul>
