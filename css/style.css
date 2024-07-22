@@ -61,6 +61,14 @@ font-style: normal;
 
 .h1-sub {
       font-size: 4em;
+  line-height: 1.1;
+font-family: loretta-display, serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.h1-sub-monkseal {
+      font-size: 3em;
   line-height: 1.4;
 font-family: loretta-display, serif;
 font-weight: 500;
@@ -466,7 +474,7 @@ font-style: normal;
 .ul-sub {
     padding: 0;
     list-style: none;
- font-size: .8em;
+ font-size: .9em;
   font-family: indivisible, sans-serif;
 font-weight: 400;
 font-style: normal;
@@ -641,7 +649,7 @@ img {
 }
 
 
-/* SECTION */
+/* SECTION FOR INDEX GRID */
 .work {
   text-align: center;
   padding: 2em 3%;
@@ -819,6 +827,11 @@ body {
     height: 90vh;
 }
 
+
+
+
+
+/* PATAGONIA HERO IMAGE */
 .project-top-wrapper {
     position: absolute;
     z-index: -10;
@@ -829,6 +842,28 @@ body {
     top: 0;
     height: 90vh;
 }
+
+/* HERO IMAGES */
+
+#rose-project-top {
+  right: 5%;
+  top: 33%;
+  bottom: 0;
+  width: 100vh;
+}
+
+#monkseal-top {
+  right: 5%;
+  top: 53%;
+  bottom: 0;
+  width: 60vh;
+}
+
+.project-top h1,
+.page-top h1 {
+  font-size: clamp(3.5em, 7vw, 7em);
+}
+
 
 
 /* SUB PAGE IMAGE FAN EFFECT */
