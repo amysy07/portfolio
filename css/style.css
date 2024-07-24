@@ -65,6 +65,7 @@ font-style: normal;
 font-family: loretta-display, serif;
 font-weight: 500;
 font-style: normal;
+color: rgb(36, 36, 36);
 }
 
 .h1-sub-monkseal {
@@ -99,8 +100,8 @@ h3 {
   font-family: loretta-display, serif;
 font-weight: 700;
 font-style: normal;
-color: rgba(0, 0, 0, 0.7);
-
+/* color: rgba(37, 48, 38, 0.8); */
+ color: rgba(198, 96, 0, 0.8);
 }
 
 h4 {
@@ -110,7 +111,8 @@ h4 {
      font-family: loretta-display-variable, sans-serif;
  font-variation-settings: "wght" 500;
  font-style: italic;
- color: rgba(0, 0, 0, 0.7);
+ color: rgba(39, 39, 39, 0.7);
+
 }
 h5 {
   font-size: 1.125em;
@@ -422,9 +424,17 @@ width: auto;
     max-width: 100px;
 }
 
-.site-header a,
-.site-footer a {
+.site-header a  {
   color: rgba(0, 0, 0, 0.8);
+}
+
+.site-footer a {
+    color: white;
+}
+
+.site-footer {
+     background-color: rgba(31, 44, 32, 0.8);
+     padding: 2em;
 }
 
 .site-header a:hover,
@@ -433,13 +443,13 @@ width: auto;
   text-decoration: none;
 }
 
-.site-footer::before {
+/* .site-footer::before {
   content: "";
   display: block;
 width: auto;
-  margin: 0.5em auto;
+  margin: auto;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
-}
+} */
 
 /* LOGO AREA */
 .site-id h1 {
@@ -447,6 +457,7 @@ width: auto;
   margin: 0;
   /* padding-top: 0.55em; */
   text-align: center;
+  
 }
 
 /* SITE NAV */
