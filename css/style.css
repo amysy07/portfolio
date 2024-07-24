@@ -650,6 +650,7 @@ img {
 
 
 /* SECTION FOR INDEX GRID */
+
 .work {
   text-align: center;
   padding: 2em 3%;
@@ -856,7 +857,7 @@ body {
   right: 5%;
   top: 53%;
   bottom: 0;
-  width: 60vh;
+  width: 53vh;
 }
 
 .project-top h1,
