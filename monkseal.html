@@ -18,6 +18,9 @@
 
     <!-- MAIN CSS FILE -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body class="page-projectdetail">
@@ -33,8 +36,8 @@
                 <nav class="site-nav">
                     <div class="menu-button navicon">Menu</div>
                     <ul>
-                        <li><a class="scroll" href="#work">Work</a></li>
-                        <li><a class="scroll" href="#about">About</a></li>
+                        <li><a class="scroll" href="index.html">Work</a></li>
+                        <li><a class="scroll" href="about.html">About</a></li>
                         <li><a class="scroll" href="#contact">Contact</a></li>
                     </ul>
                 </nav>
@@ -111,27 +114,20 @@
                 </div>
             </section>
 
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/wasitemap.jpg"></div>
+                    <div class="swiper-slide"><img src="img/walowfi.jpg"></div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
 
             <section>
                 <div class="container">
-                    <div class="row">
-                        <div class="column one-fifth">
-                            <img src="../portfolio/img/patagoniasketch1.jpg">
-                        </div>
-                        <div class="column one-fifth">
-                            <img src="../portfolio/img/patagoniasketch2.jpg">
-                        </div>
-                        <div class="column one-fifth">
-                            <img src="../portfolio/img/patagoniasketch3.jpg">
-                        </div>
-                        <div class="column one-fifth">
-                            <img src="../portfolio/img/patagoniasketch4.jpg">
-                        </div>
-                        <div class="column one-fifth">
-                            <img src="../portfolio/img/patagoniasketch5.jpg">
-                        </div>
-                    </div>
-                    <div class="sketching"></div>
                     <h2 class="h2-sub">Sketching</h2>
                     <div class="row">
                         <div class="column one-half">
@@ -187,41 +183,7 @@
                                 leaf, a native plant to Patagonia, makes up the negative space.</p>
                         </div>
                     </div>
-                    <!-- 
-                      <div class="column one-third" id="patagonia-sketches">
-                            <img src="../portfolio/img/falconmini.png" alt="Falcon">
 
-                        </div>
-                        <div class="column two-thirds" id="patagonia-sketches">
-                            <h3>Option #1</h3>
-                            <h4>Falcon</h4>
-                            <p>During his youth, Choinard was part of a falconry club; this led to his love of the
-                                outdoors and rock climbing.</p>
-                        </div>
-                    <div class="row">
-                        <div class="column one-third" id="patagonia-sketches">
-                            <img src="../portfolio/img/guanacomini.png" alt="Guanaco">
-
-                        </div>
-                        <div class="column two-thirds" id="patagonia-sketches">
-                            <h3>Option #2</h3>
-                            <h4>Guanaco</h4>
-                            <p>The guanaco is a native animal of Patagonia, and a key symbol in its ecosystem. The
-                                textures of the fur are arranged to show the silhouette of the Fitz Roy mountains.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column one-third" id="patagonia-sketches">
-                            <img src="img/chockmini.png" alt="Chock">
-
-                        </div>
-                        <div class="column two-thirds" id="patagonia-sketches">
-                            <h3>Option #3</h3>
-                            <h4>Chock + Leaf</h4>
-                            <p>The chock is a nod to Choinard's love of rock climbing and the brand's origin. The lengua
-                                leaf, a native plant to
-                                Patagonia, makes up the negative space.</p>
-                        </div> -->
             </section>
 
             <section>
@@ -276,7 +238,8 @@
                 </div>
             </footer>
 
-            <script src="../js/scripts.js"></script>
+            <script src="js/script.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     </body>
 
