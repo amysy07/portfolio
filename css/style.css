@@ -111,7 +111,7 @@ h4 {
      font-family: loretta-display-variable, sans-serif;
  font-variation-settings: "wght" 500;
  font-style: italic;
- color: rgba(39, 39, 39, 0.7);
+ color: rgba(39, 39, 39, 0.8);
 
 }
 h5 {
@@ -357,7 +357,7 @@ body.demo::before {
   }
 
   .row > .column {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     margin-left: 2%;
     margin-right: 2%;
   }
@@ -495,7 +495,25 @@ font-style: normal;
 
 /* SECTIONS */
 section {
-  padding: 5em 0;
+  padding: 4em 0;
+}
+
+#patagonia-quoteaccent {
+    background-color: #b85f00;
+    padding: 2.75em 0;
+    color: white;
+}
+
+#patagonia-quoteaccent h1 {
+   max-width: 900px;
+   text-align: center;
+    font-size: 3em;
+  line-height: 1.4;
+font-family: loretta-display, serif;
+font-weight: 400;
+font-style: italic;
+animation-name: animation-h1;
+  animation-duration: 2s;
 }
 
 /* HERO */
@@ -876,7 +894,22 @@ body {
   font-size: clamp(3.5em, 7vw, 7em);
 }
 
+/* KEYFRAMES ANIMATION QUOTES */
 
+@keyframes animation-h1 {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(-0.5em);
+  }
+}
 
 /* SUB PAGE IMAGE FAN EFFECT */
 
