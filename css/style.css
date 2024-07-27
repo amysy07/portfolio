@@ -94,14 +94,49 @@ h2 {
  color: rgba(31, 44, 32, 0.8);
 }
 
+.h2-sub-wa {
+  font-size: 2.3em;
+  line-height: 1.1;
+  font-family: loretta-display-variable, sans-serif;
+ font-variation-settings: "wght" 400;
+ font-style: normal;
+ color:  rgba(30, 40, 79, 0.8);
+}
+
+.h2-sub-cm {
+      font-size: 2.3em;
+  line-height: 1.1;
+  font-family: loretta-display-variable, sans-serif;
+ font-variation-settings: "wght" 400;
+ font-style: normal;
+ color: rgba(75, 3, 58, 0.8);  
+}
+
 h3 {
   font-size: 1.5em;
   line-height: 1.2;
   font-family: loretta-display, serif;
 font-weight: 700;
 font-style: normal;
-/* color: rgba(37, 48, 38, 0.8); */
  color: rgba(198, 96, 0, 0.8);
+}
+
+.h3-sub-wa {
+  font-size: 1.5em;
+  line-height: 1.2;
+  font-family: loretta-display, serif;
+font-weight: 700;
+font-style: normal;
+ color: rgba(76, 87, 177, 0.8);
+}
+
+.h3-cm {
+      font-size: 1.5em;
+  line-height: 1.2;
+  font-family: loretta-display, serif;
+font-weight: 700;
+font-style: normal;
+color: rgba(173, 39, 142, 0.8); 
 }
 
 h4 {
@@ -118,6 +153,7 @@ h5 {
   font-size: 1.125em;
   line-height: 1.4;
 }
+
 h6 {
      font-family: lulo-one, sans-serif;
 font-weight: 700;
@@ -125,6 +161,24 @@ font-style: normal;
   font-size: .85em;
   line-height: 1.5;
   color: rgba(31, 44, 32, 0.8);
+}
+
+.h6-wa {
+     font-family: lulo-one, sans-serif;
+font-weight: 700;
+font-style: normal;
+  font-size: .85em;
+  line-height: 1.5;
+  color: rgba(30, 40, 79, 0.8);
+}
+
+.h6-cm {
+       font-family: lulo-one, sans-serif;
+font-weight: 700;
+font-style: normal;
+  font-size: .85em;
+  line-height: 1.5;
+  color: rgba(75, 3, 58, 0.8);  
 }
 
 /* PARAGRAPHS */
@@ -357,7 +411,7 @@ body.demo::before {
   }
 
   .row > .column {
-    /* flex-grow: 1; */
+    flex-grow: 1;
     margin-left: 2%;
     margin-right: 2%;
   }
@@ -883,6 +937,13 @@ body {
     right: 0;
     top: 0;
     height: 90vh;
+}
+
+.patagonia-finallogo {
+    max-width: 50%;
+    height: auto;
+display: flex;
+  align-items: center;
 }
 
 /* HERO IMAGES */
