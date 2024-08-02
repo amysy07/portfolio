@@ -112,6 +112,15 @@ h2 {
  color: rgba(75, 3, 58, 0.8);  
 }
 
+.h2-sub-plantoem {
+      font-size: 2.3em;
+  line-height: 1.1;
+  font-family: loretta-display-variable, sans-serif;
+ font-variation-settings: "wght" 400;
+ font-style: normal;
+color: rgba(11, 48, 32, 0.915);  
+}
+
 h3 {
   font-size: 1.5em;
   line-height: 1.2;
@@ -128,6 +137,15 @@ font-style: normal;
 font-weight: 700;
 font-style: normal;
  color: rgba(76, 87, 177, 0.8);
+}
+
+.h3-sub-plantoem {
+    font-size: 1.5em;
+  line-height: 1.2;
+  font-family: loretta-display, serif;
+font-weight: 700;
+font-style: normal;
+ color: rgb(219, 159, 47);
 }
 
 .h3-cm {
@@ -179,6 +197,15 @@ font-style: normal;
   font-size: .85em;
   line-height: 1.5;
   color: rgba(75, 3, 58, 0.8);  
+}
+
+.h6-plantoem {
+       font-family: lulo-one, sans-serif;
+font-weight: 700;
+font-style: normal;
+  font-size: .85em;
+  line-height: 1.5;
+  color: rgba(11, 48, 32, 0.915);  
 }
 
 /* PARAGRAPHS */
@@ -567,7 +594,25 @@ section {
     color: white;
 }
 
+#plantoem-quoteaccent {
+    background-color: rgba(37, 61, 51, 0.915);  
+    padding: 2.75em 0;
+    color: white;
+}
+
 #patagonia-quoteaccent h1 {
+   max-width: 900px;
+   text-align: center;
+    font-size: 3em;
+  line-height: 1.4;
+font-family: loretta-display, serif;
+font-weight: 400;
+font-style: italic;
+animation-name: animation-h1;
+  animation-duration: 2s;
+}
+
+#plantoem-quoteaccent h1 {
    max-width: 900px;
    text-align: center;
     font-size: 3em;
@@ -739,7 +784,15 @@ font-style: normal;
 }
 
 .p-about {
-    font-size: 1.3em;
+    font-size: 1.2em;
+}
+
+.p-about-green {
+    font-size: 1.2em;
+ font-family: indivisible, sans-serif;
+font-weight: 500;
+font-style: normal;
+color: rgba(31, 44, 32, 0.8);
 }
 
 .about-pic {
@@ -967,6 +1020,13 @@ display: flex;
 #monkseal-top {
   right: 5%;
   top: 63%;
+  bottom: 0;
+  width: 85vh;
+}
+
+#plantoem-top {
+  right: 5%;
+  top: 13%;
   bottom: 0;
   width: 85vh;
 }
