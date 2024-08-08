@@ -208,6 +208,15 @@ font-style: normal;
   color: rgba(11, 48, 32, 0.915);  
 }
 
+.h6-pog {
+       font-family: lulo-one, sans-serif;
+font-weight: 700;
+font-style: normal;
+  font-size: .85em;
+  line-height: 1.5;
+  color: rgb(240, 92, 34);  
+}
+
 /* PARAGRAPHS */
 
 p {
@@ -1029,6 +1038,13 @@ display: flex;
   top: 13%;
   bottom: 0;
   width: 85vh;
+}
+
+#pog-top {
+  right: 5%;
+  top: 40%;
+  bottom: 0;
+  width: 60vh;
 }
 
 .project-top h1,
