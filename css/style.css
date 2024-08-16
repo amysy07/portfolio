@@ -619,6 +619,8 @@ font-weight: 400;
 font-style: italic;
 animation-name: animation-h1;
   animation-duration: 2s;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #plantoem-quoteaccent h1 {
@@ -631,6 +633,8 @@ font-weight: 400;
 font-style: italic;
 animation-name: animation-h1;
   animation-duration: 2s;
+   margin-left: auto;
+  margin-right: auto;
 }
 
 .about-quote {
@@ -928,7 +932,7 @@ body {
 .wrapper{
     box-sizing: content-box;
     height: 6em;
-    padding: 3em;
+    padding: 5em;
     display: flex;
 }
 
