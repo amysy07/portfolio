@@ -97,32 +97,41 @@ font-weight: 700;
 .h2-sub-wa {
   font-size: 2.3em;
   line-height: 1.1;
-  font-family: loretta-display-variable, sans-serif;
- font-variation-settings: "wght" 400;
- font-style: normal;
+ font-family: the-seasons, sans-serif;
+font-style: normal;
+font-weight: 700;
  color:  rgba(30, 40, 79, 0.8);
 }
 
 .h2-sub-cm {
       font-size: 2.3em;
   line-height: 1.1;
-  font-family: loretta-display-variable, sans-serif;
- font-variation-settings: "wght" 400;
- font-style: normal;
- color: rgba(75, 3, 58, 0.8);  
+ font-family: the-seasons, sans-serif;
+font-style: normal;
+font-weight: 700;
+ color: rgba(219, 0, 106, 0.8);  
 }
 
 .h2-sub-plantoem {
       font-size: 2.3em;
   line-height: 1.1;
-  font-family: loretta-display-variable, sans-serif;
- font-variation-settings: "wght" 400;
- font-style: normal;
+font-family: the-seasons, sans-serif;
+font-style: normal;
+font-weight: 700;
 color: rgba(11, 48, 32, 0.915);  
 }
 
+.h2-sub-typography {
+      font-size: 2.3em;
+  line-height: 1.1;
+font-family: the-seasons, sans-serif;
+font-style: normal;
+font-weight: 700;
+color: rgba(255, 154, 86, 0.915);  
+}
+
 h3 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1.2;
 font-family: the-seasons, sans-serif;
 font-style: normal;
@@ -131,30 +140,30 @@ font-weight: 700;
 }
 
 .h3-sub-wa {
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1.2;
-  font-family: loretta-display, serif;
-font-weight: 700;
+font-family: the-seasons, sans-serif;
 font-style: normal;
+font-weight: 700;
  color: rgba(76, 87, 177, 0.8);
 }
 
 .h3-sub-plantoem {
-    font-size: 1.5em;
+    font-size: 1.3em;
   line-height: 1.2;
-  font-family: loretta-display, serif;
-font-weight: 700;
+font-family: the-seasons, sans-serif;
 font-style: normal;
+font-weight: 700;
  color: rgb(219, 159, 47);
 }
 
 .h3-cm {
-      font-size: 1.5em;
+      font-size: 1.3em;
   line-height: 1.2;
-  font-family: loretta-display, serif;
-font-weight: 700;
+font-family: the-seasons, sans-serif;
 font-style: normal;
-color: rgba(173, 39, 142, 0.8); 
+font-weight: 700;
+color: rgba(245, 64, 139, 0.8); 
 }
 
 h4 {
@@ -164,7 +173,7 @@ h4 {
      font-family: loretta-display-variable, sans-serif;
  font-variation-settings: "wght" 500;
  font-style: italic;
- color: rgba(39, 39, 39, 0.8);
+ color: rgba(39, 39, 39, 0.7);
 
 }
 h5 {
@@ -208,13 +217,13 @@ font-style: normal;
   color: rgba(11, 48, 32, 0.915);  
 }
 
-.h6-pog {
+.h6-typography {
        font-family: lulo-one, sans-serif;
 font-weight: 700;
 font-style: normal;
   font-size: .85em;
   line-height: 1.5;
-  color: rgb(240, 92, 34);  
+  color: rgb(255, 120, 66);  
 }
 
 /* PARAGRAPHS */
@@ -388,6 +397,12 @@ body {
   padding: 0 4%;
 }
 
+.container-finaltypography {
+  max-width: 85%;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
@@ -487,6 +502,11 @@ body.demo::before {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 3em;
+  }
+
+   .row > .column.typography.centered {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
