@@ -65,7 +65,7 @@ font-style: normal;
 font-family: loretta-display, serif;
 font-weight: 500;
 font-style: normal;
-color: rgb(36, 36, 36);
+color: rgba(38, 38, 38, 0.894);
 }
 
 .h1-sub-monkseal {
@@ -399,6 +399,12 @@ body {
 
 .container-finaltypography {
   max-width: 85%;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.container-illustrations {
+  max-width: 55%;
   margin: 0 auto;
   padding: 0 4%;
 }
@@ -834,6 +840,8 @@ font-style: normal;
 
 .p-about {
     font-size: 1em;
+    padding: .5em 0;
+    max-width: 400px;
 }
 
 .p-about-green {
