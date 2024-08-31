@@ -392,7 +392,7 @@ body {
 }
 
 .container-finalimages {
-  max-width: 55%;
+  max-width: 90%;
   margin: 0 auto;
   padding: 0 4%;
 }
@@ -507,7 +507,14 @@ body.demo::before {
   .row > .column.image.centered {
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 3em;
+ 
+  }
+
+   .row > .column.logo.centered {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+    max-width: 50%;
   }
 
    .row > .column.typography.centered {
@@ -845,11 +852,11 @@ font-style: normal;
 }
 
 .p-about-emp {
-    font-size: 1em;
+    font-size: .9em;
     padding: .5em 0;
     max-width: 400px;
-    font-family: neue-haas-grotesk-text, sans-serif;
-font-weight: 500;
+    font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 600;
 font-style: normal;
 }
 
