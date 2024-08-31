@@ -127,7 +127,7 @@ color: rgba(11, 48, 32, 0.915);
 font-family: the-seasons, sans-serif;
 font-style: normal;
 font-weight: 700;
-color: rgba(255, 154, 86, 0.915);  
+color: rgba(255, 134, 82, 0.915);  
 }
 
 h3 {
@@ -185,7 +185,7 @@ h6 {
      font-family: lulo-one, sans-serif;
 font-weight: 700;
 font-style: normal;
-  font-size: .85em;
+  font-size: .8em;
   line-height: 1.5;
   color: rgba(31, 44, 32, 0.8);
 }
@@ -194,7 +194,7 @@ font-style: normal;
      font-family: lulo-one, sans-serif;
 font-weight: 700;
 font-style: normal;
-  font-size: .85em;
+  font-size: .8em;
   line-height: 1.5;
   color: rgba(30, 40, 79, 0.8);
 }
@@ -203,7 +203,7 @@ font-style: normal;
        font-family: lulo-one, sans-serif;
 font-weight: 700;
 font-style: normal;
-  font-size: .85em;
+  font-size: .8em;
   line-height: 1.5;
   color: rgba(75, 3, 58, 0.8);  
 }
@@ -212,7 +212,7 @@ font-style: normal;
        font-family: lulo-one, sans-serif;
 font-weight: 700;
 font-style: normal;
-  font-size: .85em;
+  font-size: .8em;
   line-height: 1.5;
   color: rgba(11, 48, 32, 0.915);  
 }
@@ -221,9 +221,9 @@ font-style: normal;
        font-family: lulo-one, sans-serif;
 font-weight: 700;
 font-style: normal;
-  font-size: .85em;
+  font-size: .8em;
   line-height: 1.5;
-  color: rgb(255, 120, 66);  
+  color: rgb(255, 152, 33);  
 }
 
 /* PARAGRAPHS */
@@ -842,6 +842,15 @@ font-style: normal;
     font-size: 1em;
     padding: .5em 0;
     max-width: 400px;
+}
+
+.p-about-emp {
+    font-size: 1em;
+    padding: .5em 0;
+    max-width: 400px;
+    font-family: neue-haas-grotesk-text, sans-serif;
+font-weight: 500;
+font-style: normal;
 }
 
 .p-about-green {
