@@ -52,11 +52,12 @@ h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3.5em;
   line-height: 1.4;
-font-family: loretta-display, serif;
-font-weight: 200;
+font-family: the-seasons, sans-serif;
 font-style: normal;
+font-weight: 400;
+color: rgba(38, 38, 38, 0.782);
 }
 
 .h1-sub {
@@ -702,6 +703,12 @@ animation-name: animation-h1;
   text-align: left;
 }
 
+.hero-index {
+  padding: 8em 4%;
+  padding-bottom: 18em;
+  text-align: left;
+}
+
 .hero h1,
 .hero p {
   max-width: 1000px;
@@ -1003,9 +1010,18 @@ body {
 .words-main {
     display: block;
     height: 100%;
+    font-size: .8em;
     color: rgba(31, 44, 32, 0.8);
     animation: spin_words 8s infinite;
+    font-family: the-seasons, sans-serif;
+font-style: normal;
+font-weight: 300;
 }
+
+.images-main {
+max-width: 8%;
+}
+
 @keyframes spin_words{
     10%{
         transform: translateY(-112%);
