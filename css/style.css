@@ -88,9 +88,9 @@ h2 {
 .h2-sub {
   font-size: 2.3em;
   line-height: 1.1;
-  font-family: loretta-display-variable, sans-serif;
- font-variation-settings: "wght" 400;
- font-style: normal;
+ font-family: the-seasons, sans-serif;
+font-style: normal;
+font-weight: 700;
  color: rgba(31, 44, 32, 0.8);
 }
 
@@ -124,9 +124,9 @@ color: rgba(11, 48, 32, 0.915);
 h3 {
   font-size: 1.5em;
   line-height: 1.2;
-  font-family: loretta-display, serif;
-font-weight: 700;
+font-family: the-seasons, sans-serif;
 font-style: normal;
+font-weight: 700;
  color: rgba(198, 96, 0, 0.8);
 }
 
@@ -223,8 +223,8 @@ p {
   margin: 0.5em 0;
   max-width: 38em;
   font-size: 1.1em;
-  font-family: indivisible, sans-serif;
-font-weight: 300;
+  font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 400;
 font-style: normal;
 }
 
@@ -232,8 +232,8 @@ font-style: normal;
   margin: 0.5em 0;
   max-width: 38em;
   font-size: 1em;
-  font-family: indivisible, sans-serif;
-font-weight: 300;
+  font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 400;
 font-style: normal;
 }
 
@@ -382,6 +382,12 @@ body {
   padding: 0 4%;
 }
 
+.container-finalimages {
+  max-width: 55%;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
@@ -477,9 +483,10 @@ body.demo::before {
     max-width: 16%;
   }
 
-  .row > .column.centered {
+  .row > .column.image.centered {
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 3em;
   }
 }
 
@@ -523,6 +530,12 @@ width: auto;
     max-width: 100px;
 }
 
+.site-id h1 a {
+font-family: the-seasons, sans-serif;
+font-style: normal;
+font-weight: 700;
+}
+
 .site-header a  {
   color: rgba(0, 0, 0, 0.8);
 }
@@ -552,7 +565,7 @@ width: auto;
 
 /* LOGO AREA */
 .site-id h1 {
-  font-size: 1.5em;
+  font-size: 1.1em;
   margin: 0;
   /* padding-top: 0.55em; */
   text-align: center;
@@ -785,9 +798,12 @@ span {
 }
 
 .spantwo {
-    font-family: loretta-display-variable, sans-serif;
-    font-variation-settings: "wght" 600;
-    font-style: italic;
+      margin: 0.5em 0;
+  max-width: 38em;
+  font-size: 1em;
+  font-family: neue-haas-grotesk-text, sans-serif;
+font-weight: 400;
+font-style: italic;
 }
 
 .spanthree {
@@ -797,13 +813,13 @@ font-style: normal;
 }
 
 .p-about {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .p-about-green {
-    font-size: 1.2em;
- font-family: indivisible, sans-serif;
-font-weight: 500;
+    font-size: 1em;
+ font-family: neue-haas-grotesk-text, sans-serif;
+font-weight: 400;
 font-style: normal;
 color: rgba(31, 44, 32, 0.8);
 }
@@ -1007,10 +1023,10 @@ body {
     position: absolute;
     z-index: -10;
     overflow: hidden;
-    width: 100%;
+    width: 60vh;
     max-width: auto;
-    right: 0;
-    top: 0;
+    right: 8%;
+    top: 40%;
     height: 90vh;
 }
 
