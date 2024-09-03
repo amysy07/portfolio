@@ -57,7 +57,7 @@ h1 {
 font-family: the-seasons, sans-serif;
 font-style: normal;
 font-weight: 400;
-color: rgba(38, 38, 38, 0.782);
+color: rgba(38, 38, 38, 0.846);
 }
 
 .h1-sub {
@@ -668,6 +668,7 @@ animation-name: animation-h1;
   animation-duration: 2s;
   margin-left: auto;
   margin-right: auto;
+  color: white;
 }
 
 #plantoem-quoteaccent h1 {
@@ -682,6 +683,7 @@ animation-name: animation-h1;
   animation-duration: 2s;
    margin-left: auto;
   margin-right: auto;
+   color: white;
 }
 
 .about-quote {
@@ -791,7 +793,7 @@ form textarea {
   display: block;
   width: 100%;
   box-sizing: border-box;
-  font-size: .75em;
+  font-size: .65em;
 }
 
 form input[type="text"],
@@ -1110,7 +1112,7 @@ display: flex;
   right: 5%;
   top: 63%;
   bottom: 0;
-  width: 85vh;
+  width: 70vh;
 }
 
 #plantoem-top {
