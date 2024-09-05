@@ -67,6 +67,8 @@ font-family: loretta-display, serif;
 font-weight: 500;
 font-style: normal;
 color: rgba(38, 38, 38, 0.894);
+    animation-name: animation-h1;
+    animation-duration: 2s;
 }
 
 .h1-sub-monkseal {
@@ -75,6 +77,8 @@ color: rgba(38, 38, 38, 0.894);
 font-family: loretta-display, serif;
 font-weight: 500;
 font-style: normal;
+    animation-name: animation-h1;
+    animation-duration: 2s;
 }
 
 
@@ -641,7 +645,7 @@ font-style: normal;
 
 /* SECTIONS */
 section {
-  padding: 4em 0;
+  padding: 3em 0;
 }
 
 #patagonia-quoteaccent {
