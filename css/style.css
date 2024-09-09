@@ -711,7 +711,7 @@ animation-name: animation-h1;
 
 .hero-index {
   padding: 8em 4%;
-  padding-bottom: 18em;
+  padding-bottom: 12em;
   text-align: left;
 }
 
@@ -1007,10 +1007,13 @@ body {
     height: 6em;
     padding: 5em;
     display: flex;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .words {
     overflow: hidden;
+    height: 1.5em;
 }
 
 .words-main {
